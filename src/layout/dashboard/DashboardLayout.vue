@@ -3,12 +3,21 @@
     <side-bar>
       <template slot="links">
         <sidebar-link to="/dashboard" name="Dashboard" icon="ti-panel"/>
-        <sidebar-link to="/stats" name="User Profile" icon="ti-user"/>
-        <sidebar-link to="/table-list" name="Table List" icon="ti-view-list-alt"/>
-        <sidebar-link to="/typography" name="Typography" icon="ti-text"/>
-        <sidebar-link to="/icons" name="Icons" icon="ti-pencil-alt2"/>
-        <sidebar-link to="/maps" name="Map" icon="ti-map"/>
-        <sidebar-link to="/notifications" name="Notifications" icon="ti-bell"/>
+        <!-- <sidebar-link to="/table-list" name="Monitoring" icon="ti-layout-media-center-alt"/> -->
+        <!-- <sidebar-link to="/table-list" name="Logs" icon="ti-bar-chart"/> -->
+        <sidebar-link to="/merchants" name="Merchant Group" icon="ti-user"/>
+        <!-- <sidebar-link to="/table-list" name="Network Response" icon="ti-loop"/> -->
+        
+        
+        
+        
+        
+        <!-- <sidebar-link to="/stats" name="User Profile" icon="ti-user"/> -->
+        <!-- <sidebar-link to="/table-list" name="Table List" icon="ti-view-list-alt"/> -->
+        <!-- <sidebar-link to="/typography" name="Typography" icon="ti-text"/> -->
+        <!-- <sidebar-link to="/icons" name="Icons" icon="ti-pencil-alt2"/> -->
+        <!-- <sidebar-link to="/maps" name="Map" icon="ti-map"/> -->
+        <!-- <sidebar-link to="/notifications" name="Notifications" icon="ti-bell"/> -->
       </template>
       <mobile-menu>
         <li class="nav-item">

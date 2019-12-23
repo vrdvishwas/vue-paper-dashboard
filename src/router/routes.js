@@ -10,12 +10,15 @@ import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
 import Typography from "@/pages/Typography.vue";
 import TableList from "@/pages/TableList.vue";
+import Login from "@/auth/Login";
+import MerchantGroupList from "@/merchant-group/List";
+import MerchantGroupForm from "@/merchant-group/Form";
 
 const routes = [
   {
     path: "/",
     component: DashboardLayout,
-    redirect: "/dashboard",
+    redirect: "/login",
     children: [
       {
         path: "dashboard",
@@ -51,9 +54,31 @@ const routes = [
         path: "table-list",
         name: "table-list",
         component: TableList
+      },
+      {
+        path: "merchants",
+        name: "merchants",
+        component: MerchantGroupList
+      },
+      {
+        path: "merchant/create",
+        name: "merchant-create",
+        component: MerchantGroupForm
+      }
+      ,
+      {
+        path: "merchant/edit/:merchant_id",
+        name: "merchant-edit",
+        component: MerchantGroupForm
+      },
+      {
+        path: "merchant/delete/:merchant_id",
+        name: "merchant-delete",
+        component: MerchantGroupForm
       }
     ]
   },
+  { path: "/login", component: Login },
   { path: "*", component: NotFound }
 ];
 
