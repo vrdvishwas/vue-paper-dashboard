@@ -23,7 +23,7 @@
     <div class="row">
 
       <div class="col-12">
-        <chart-card title="Users behavior"
+        <chart-card title="Transaction Trend"
                     sub-title="24 Hours performance"
                     :chart-data="usersChart.data"
                     :chart-options="usersChart.options">
@@ -39,7 +39,7 @@
       </div>
 
       <div class="col-md-6 col-12">
-        <chart-card title="Email Statistics"
+        <chart-card title="Transaction By Response Code"
                     sub-title="Last campaign performance"
                     :chart-data="preferencesChart.data"
                     chart-type="Pie">
@@ -54,7 +54,7 @@
       </div>
 
       <div class="col-md-6 col-12">
-        <chart-card title="2015 Sales"
+        <chart-card title="Success and Failure Trend"
                     sub-title="All products including Taxes"
                     :chart-data="activityChart.data"
                     :chart-options="activityChart.options">

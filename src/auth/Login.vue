@@ -20,7 +20,7 @@
                             </div>
                             
                             <input name="username" type="text"
-                                   class="form-control"
+                                   class="form-control border"
                                    required autofocus
                                    placeholder="Username"
                                    value="" v-model="username">
@@ -36,7 +36,7 @@
                             </div>
                             
                             <input name="password" type="password"
-                                   class="form-control"
+                                   class="form-control border"
                                    required
                                    placeholder="Password"
                                    value=""
@@ -101,7 +101,7 @@ export default {
             
             let that = this;
             that.loginerror = false;
-            axios.post('http://digitalreinvent.com/login.php',{
+            axios.post('https://digitalreinvent.com/login.php',{
                 username : that.username,
                 password : that.password,
             },{

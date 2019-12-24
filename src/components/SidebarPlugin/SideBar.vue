@@ -43,7 +43,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: "Admin Panel"
+      default: "TMS"
     },
     backgroundColor: {
       type: String,

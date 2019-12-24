@@ -5,7 +5,12 @@
         <sidebar-link to="/dashboard" name="Dashboard" icon="ti-panel"/>
         <!-- <sidebar-link to="/table-list" name="Monitoring" icon="ti-layout-media-center-alt"/> -->
         <!-- <sidebar-link to="/table-list" name="Logs" icon="ti-bar-chart"/> -->
-        <sidebar-link to="/merchants" name="Merchant Group" icon="ti-user"/>
+        <sidebar-link to="#@1" name="Users" icon="ti-user"/>
+        <sidebar-link to="/merchants" name="Merchant" icon="ti-star"/>
+        <sidebar-link to="#@2" name="Velocity" icon="ti-pulse"/>
+        <sidebar-link to="#@3" name="Routing" icon="ti-loop"/>
+        <sidebar-link to="#@4" name="Reports" icon="ti-pie-chart"/>
+        <sidebar-link to="#@5" name="System Configuration" icon="ti-settings"/>
         <!-- <sidebar-link to="/table-list" name="Network Response" icon="ti-loop"/> -->
         
         

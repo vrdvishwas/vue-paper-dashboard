@@ -1,13 +1,13 @@
 <template>
   <footer class="footer">
     <div class="container-fluid d-flex flex-wrap justify-content-between">
-      <nav>
+      <!-- <nav>
         <ul>
           <li>
             <router-link :to="{path:'/dashboard'}">Dashboard</router-link>
           </li>
         </ul>
-      </nav>
+      </nav> -->
      
     </div>
   </footer>
